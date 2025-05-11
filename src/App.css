@@ -233,3 +233,70 @@
   padding: 1rem;
   margin-top: auto;
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: white; */
+}
+
+.Container {
+  background-color: white;
+  color: black;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.calculator {
+  width: 100%;
+  height: 100%;
+}
+
+.btnWrapper {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.ac-btn {
+  width: 400px;
+  background-color: red;
+  color: white;
+}
+
+.result {
+  color: green;
+}
+
+.project-component {
+  
+}

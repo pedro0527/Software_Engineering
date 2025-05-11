@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import sampleImage from "../assets/calcu.png";
+import Calculator from "./CalculatePage";
 
 /**
  * 프로젝트 페이지 컴포넌트
@@ -11,16 +11,17 @@ const ProjectsPage = () => {
     {
       title: "나의 프로젝트1",
       description: "React를 사용하여 만든 계산기 애플리케이션",
-      image: sampleImage,
+      component: <Calculator />,
     },
     {
-      title: "나의 프로젝트2",
-      description: "캡스톤 프로젝트에서의 딥러닝 기반 영상 분류 시스템",
+      title: "나눠주개",
+      description: "반려견 헌혈 예약 및 긴급 수혈 가능 반려견 정보 커뮤니티",
+      link: "https://github.com/TEAM-LifeTail",
     },
     {
-      title: "나의 프로젝트3",
-      description: "나만의 맛집 저장리스트 ~~",
-      link: "https://map.naver.com/p/entry/place/18697937?c=15.00,0,0,0,dh",
+      title: "조인어스",
+      description: "공유를 통해 환경보호를 실천하고자 하는 서비스",
+      link: "https://github.com/2024-line4-earth",
     },
   ];
 
@@ -35,6 +36,7 @@ const ProjectsPage = () => {
             description={project.description}
             image={project.image}
             link={project.link}
+            component={project.component}
           />
         ))}
       </div>

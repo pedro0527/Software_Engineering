@@ -7,7 +7,7 @@ import React from "react";
  * @param {string} image - 프로젝트의 이미지 URL (선택적)
  * @param {string} link - 프로젝트의 외부 링크 URL (선택적)
  */
-const ProjectCard = ({ title, description, image, link }) => {
+const ProjectCard = ({ title, description, image, link, component }) => {
   return (
     <div className="project-card">
       <h3>{title}</h3>
@@ -20,10 +20,16 @@ const ProjectCard = ({ title, description, image, link }) => {
       <p>{description}</p>
       {/* 프로젝트 링크가 있는 경우 버튼 표시 */}
       {link && (
-        <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-link"
+        >
           프로젝트 보기
         </a>
       )}
+      {component && <div className="project-component">{component}</div>}
     </div>
   );
 };
