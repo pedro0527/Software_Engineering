@@ -16,8 +16,8 @@ const HomePage = () => {
       description: "저에게 연락하는 방법입니다.",
     },
     {
-      title: "여러분이 원하는",
-      description: "항목을 새로 만들어 보세요.",
+      title: "기술 스택",
+      description: "HTML, CSS, JavaScript, REACT, TypeScript",
     },
   ];
 
