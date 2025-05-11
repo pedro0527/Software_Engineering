@@ -5,11 +5,11 @@ const HomePage = () => {
   const features = [
     {
       title: "소개",
-      description: "제 소개입니다.",
+      description: "안녕하세요! 프론트엔드 개발자를 희망하는 이수용입니다.",
     },
     {
       title: "프로젝트",
-      description: "제가 만든 프로젝트들 입니다.",
+      description: "제가 진행했던 프로젝트에 대해서 설명합니다.",
     },
     {
       title: "연락처",
