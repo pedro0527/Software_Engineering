@@ -9,7 +9,7 @@ import Calculator from "./CalculatePage";
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "나의 프로젝트1",
+      title: "계산기",
       description: "React를 사용하여 만든 계산기 애플리케이션",
       component: <Calculator />,
     },
